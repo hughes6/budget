@@ -1,0 +1,16 @@
+make it so that we can list expenditures in order in the email
+
+
+
+email - category
+kensey classes - Envelope - kensey school
+kensey debt - Education - kensey debt
+costco - Envelope Costco Membership
+costco membership - Envelop costco membership
+spotify conner - Subscription - spotify conner
+spotify kensey - Subscription - spotify kensey
+spotify - spotify conner
+mint mobile kensey - Subscription - mint mobile kensey
+mint mobile conner - Subscription - mint mobile conner
+mint mobile - Subscription - mint mobile conner
+basically exact matches except "Kensey school"

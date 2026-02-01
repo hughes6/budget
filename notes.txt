@@ -1,0 +1,36 @@
+start by making a venv
+ python -m venv venv
+activate the venv
+ venv/Scripts/Activate.ps1
+upgrade pip
+ python.exe -m pip install --upgrade pip
+install requirements
+  pip install fastapi[standard]
+create an instance in code
+  "app = FastAPI()"
+start server
+  fastapi dev main.py
+
+
+Get request anatomy
+@app.get("/address/additional")
+func_name():
+  return {"something"}
+
+
+from pydantic import BaseModel
+"allows us to create data structures"
+
+
+PostgreSQL setup
+ create new database and make the name the same as env variable
+ database.py sets up the session instance using environment variables
+ config file has data for connecting to it and main has excepiton handler
+ models has table data for PostgreSQL
+
+Schemas has class structures and is what we will use to recieve and send data to postgresql
+
+emailer email: conkenbudget@gmail.com
+emailer password: Kirby777!!!(&(&SH(
+app password:rhoz hnjv gfrr pgcj
+using smtlib and impaplib to listen and send email data
