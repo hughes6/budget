@@ -483,7 +483,7 @@ def send_catalog(sender, db: Session):
         elif bucket_lower.startswith("main - "):
             main_items.append(item)
             
-        elif any(x in bucket_lower for x in ["groceries", "gas", "rent", "tithe", "shopping", "chipolte"]):
+        elif any(x in bucket_lower for x in ["groceries", "gas", "rent", "tithe", "shopping", "eating out"]):
             main_items.append(item)
             
         elif "kensey debt" in bucket_lower:
