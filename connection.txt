@@ -1,0 +1,11 @@
+ssh raspberrypi@192.168.0.108
+pi
+
+thru eth
+ssh raspberrypi@raspberrypi.local
+
+to add network 
+sudo nmcli dev wifi connect "Gravelbike" password "Pivot2015"
+
+to find ip address
+hostname -I

@@ -82,9 +82,9 @@ class BudgetExcelParser:
         return subs
     
     def get_insurance(self) -> List[Dict]:
-        """Get insurance from M2:N6"""
+        """Get insurance from M7&N7"""
         insurance = []
-        for i in range(1, 6):  # Rows 2-6
+        for i in range(7, 7):  # Row 7
             name = self._get_cell_value(i, 12)  # Column M
             amount = self._get_cell_value(i, 13)  # Column N
             

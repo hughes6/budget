@@ -332,6 +332,7 @@ def extract_category_from_patterns(body: str, db: Session):
     # Common expense keywords mapping to budget categories
     category_keywords = {
         # Groceries
+        'grocery' : 'Groceries',
         'groceries': 'Groceries',
         'grocery': 'Groceries',
         'supermarket': 'Groceries',
@@ -345,7 +346,16 @@ def extract_category_from_patterns(body: str, db: Session):
         'costco': 'Envelope - Costco Membership',
         'kensey debt' : 'Kensey School Debt',
         'kensey school debt': 'Kensey School Debt',
-        
+        'conner roth ira' : 'conner ira',
+        'conner roth IRA' : 'conner ira',
+        'Conner roth IRA' : 'conner ira',
+        'kensey roth ira' : 'kensey ira',
+        'kensey roth IRA' : 'kensey ira',
+        'Kensey roth IRA' : 'kensey ira',
+        'kensey therapy' : 'therapy',
+        'therapy session' : 'therapy',
+        'therpy' : 'therapy,'
+
         # Gas
         'gas': 'Gas',
         'gasoline': 'Gas',
