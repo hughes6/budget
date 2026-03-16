@@ -354,7 +354,7 @@ def extract_category_from_patterns(body: str, db: Session):
         'Kensey roth IRA' : 'kensey ira',
         'kensey therapy' : 'therapy',
         'therapy session' : 'therapy',
-        'therpy' : 'therapy,'
+        'therpy' : 'therapy',
 
         # Gas
         'gas': 'Gas',

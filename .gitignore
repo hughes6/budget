@@ -1,2 +1,5 @@
 .env
 venv
+connection.txt
+notes.txt
+problems.txt
